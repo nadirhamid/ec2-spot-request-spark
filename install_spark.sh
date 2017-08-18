@@ -6,7 +6,7 @@ tar zxvf ~/Downloads/spark-* -C /usr/local
 mv /usr/local/spark-* /usr/local/spark  
 SPARK_HOME="/usr/local/spark"
 PATH=$PATH:$SPARK_HOME/bin
-echo "export SPARK_HOME=/usr/local/spark\nexport PATH=$PATH:$SPARK_HOME/bin"
+echo "export SPARK_HOME=/usr/local/spark\nexport PATH=$PATH:$SPARK_HOME/bin" >> ~/.profile
 chown -R ubuntu $SPARK_HOME 
 cp ./spark-env.sh $SPARK_HOME/conf/spark-env.sh  
 
