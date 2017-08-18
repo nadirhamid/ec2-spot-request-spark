@@ -1,2 +1,2 @@
-mv ./slaves $SPARK_HOME/conf/slaves
-$SPARK_HOME/sbin/start-all.sh  
+mv ./slaves $HOME/spark/conf/slaves
+$HOME/spark/sbin/start-all.sh  
